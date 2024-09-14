@@ -1,3 +1,4 @@
+import Header from './components/Header'
 import './globals.css'
 
 export default function RootLayout({
@@ -7,7 +8,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="w-full h-screen">{children}</body>
+      <body className="w-full h-screen container mx-auto">
+        <Header />
+        {children}
+      </body>
     </html>
   )
 }
