@@ -32,7 +32,9 @@ const Logo = () => (
         transform="translate(14.0625,0.625)"
       />
     </svg>
-    <span className="text-2xl font-bold uppercase italic">JobAgency</span>
+    <span className="text-2xl font-bold uppercase italic text-white">
+      JobAgency
+    </span>
   </div>
 )
 
