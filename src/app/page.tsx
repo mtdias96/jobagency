@@ -1,7 +1,9 @@
+import Logo from './components/Logo'
+
 export default function Home() {
   return (
-    <div>
-      <h1>Hellow word</h1>
+    <div className="w-full h-screen">
+      <Logo />
     </div>
   )
 }
