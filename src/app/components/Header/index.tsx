@@ -10,7 +10,7 @@ const Header: React.FC = () => {
   const toggleMenu = () => setIsOpen(!isOpen)
 
   return (
-    <header className="text-white p-4">
+    <header className="text-white p-4 mt-7">
       <nav className="container mx-auto flex justify-between items-center">
         <Logo />
         <div className="relative">
@@ -26,7 +26,7 @@ const Header: React.FC = () => {
             )}
           </button>
           <div
-            className={`fixed top-0 right-0 w-3/4 h-full bg-black text-white lg:hidden transition-transform duration-300 transform ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}
+            className={`fixed top-0 right-0 w-full h-full bg-black/60 text-white lg:hidden transition-transform duration-300 transform ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}
           >
             <button
               className="absolute top-4 right-4 p-2"
