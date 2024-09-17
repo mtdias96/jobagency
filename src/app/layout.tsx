@@ -8,7 +8,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="w-full h-screen container mx-auto">
+      <body className="w-full h-screen ">
         <Header />
         {children}
       </body>
